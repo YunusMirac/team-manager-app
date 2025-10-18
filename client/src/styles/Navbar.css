@@ -1,0 +1,41 @@
+                            nav {
+                                background: linear-gradient(90deg, #6dd5ed 0%, #3498db 100%);
+                                padding: 18px 32px;
+                                display: flex;
+                                align-items: center;
+                                gap: 24px;
+                                border-radius: 0 0 12px 12px;
+                                box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+                                min-height: 60px;
+                            }
+                            
+                            nav a {
+                                color: white;
+                                text-decoration: none;
+                                font-size: 1.1rem;
+                                font-weight: 500;
+                                padding: 8px 16px;
+                                border-radius: 6px;
+                            }
+                            
+                            nav a:hover {
+                                background: rgba(255, 255, 255, 0.18);
+                                color: #222;
+                            }
+                            
+                            nav button {
+                                background-color: transparent;
+                                color: #c0392b;
+                                border: none;
+                                border-radius: 6px;
+                                padding: 8px 16px;
+                                font-size: 1.2rem;
+                                font-weight: 500;
+                                cursor: pointer;
+                                margin-left: auto;
+                            }
+                            
+                            nav button:hover {
+                                background: #c0392b;
+                                color: white;
+                            }

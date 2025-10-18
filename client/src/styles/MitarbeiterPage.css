@@ -1,0 +1,198 @@
+                        .invite-page {
+                            display: flex;
+                            flex-direction: column;
+                            width: 80%;
+                            margin: 0 auto;
+                        }
+                        
+                        .invite-page-title {
+                            font-size: 24px;
+                            margin-bottom: 20px;
+                            text-align: center;
+                        }
+                        
+                        .invite-page-label {
+                            font-size: 18px;
+                            margin-left: 12px;
+                        }
+                        
+                        .invite-page-input {
+                            margin-left: 10px;
+                            border-radius: 3px;
+                            border: 1px solid #ccc;
+                            font-size: 15px;
+                            padding: 5px;
+                            width: 70%;
+                        }
+                        
+                        .invite-page-button {
+                            background-color: #4CAF50;
+                            color: white;
+                            border: none;
+                            padding: 6px 20px;
+                            text-decoration: none;
+                            font-size: 16px;
+                            margin: 2px 2px;
+                            cursor: pointer;
+                            border-radius: 3px;
+                            width: 30%;
+                        }
+                        
+                        .invite-page-button-back {
+                            background-color: transparent;
+                            border: none;
+                            color: rgb(255, 0, 0);
+                            text-decoration: none;
+                            font-size: 12px;
+                            margin-left: 8px;
+                            margin-top: 5px;
+                            cursor: pointer;
+                            width: 50px;
+                            text-align: left;
+                        }
+                        
+                        .invite-input-row {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .users-table-container {
+                            background-color: white;
+                            width: 80%;
+                            margin: 0 auto;
+                            align-items: center;
+                            justify-content: space-between;
+                        }
+                        
+                        .users-table {
+                            width: 100%;
+                            border-collapse: collapse;
+                        }
+                        
+                        .users-table-head {
+                            background-color: #588f69;
+                            color: rgb(0, 0, 0);
+                            font-size: 22px;
+                            margin: 20px;
+                        }
+                        
+                        .users-table-body {
+                            background-color: white;
+                        }
+                        
+                        .users-info-button {
+                            background-color: #588f69;
+                            border: none;
+                            border-radius: 3px;
+                            margin: 5px;
+                            color: white;
+                            cursor: pointer;
+                            font-size: 14px;
+                        }
+                        
+                        .users-delete-button {
+                            background-color: red;
+                            border: none;
+                            border-radius: 3px;
+                            margin: 5px;
+                            color: white;
+                            cursor: pointer;
+                            font-size: 14px;
+                        }
+                        
+                        .users-table-body tr {
+                            border-bottom: 1px solid #ccc;
+                        }
+                        
+                        .users-table th,
+                        .users-table td {
+                            border-right: 1px solid #ccc;
+                            text-align: center;
+                        }
+                        
+                        .users-table th:last-child,
+                        .users-table td:last-child {
+                            border-right: none;
+                        }
+                        
+                        .users-invite-button {
+                            background-color: #588f69;
+                            border: none;
+                            color: white;
+                            cursor: pointer;
+                            font-size: 18px;
+                            padding: 6px 12px;
+                        }
+                        
+                        .users-invite-button:hover {
+                            background-color: #63aa7a;
+                        }
+                        
+                        .user-tasks-title,
+                        .user-tasks-empty {
+                            text-align: center;
+                            margin-bottom: 40px;
+                        }
+                        
+                        .user-tasks-div {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        
+                        .user-task-item {
+                            background-color: rgb(237, 236, 236);
+                            border-radius: 8px;
+                            padding: 18px;
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            box-shadow: 0 2px 8px rgba(88, 60, 60, 0.241);
+                            margin: 12px;
+                        }
+                        
+                        .user-task-title {
+                            display: flex;
+                            justify-content: center;
+                            font-size: 25px;
+                            font-weight: bold;
+                            text-decoration: underline;
+                            margin-top: 0px;
+                        }
+                        
+                        .user-task-item:hover {
+                            box-shadow: 0 2px 8px rgba(88, 60, 60, 0.241);
+                            transform: scale(1.04);
+                            width: 55%;
+                        }
+                        
+                        .user-task-due-date,
+                        .user-task-status {
+                            font-size: 14px;
+                            color: #666;
+                            margin-bottom: -10px;
+                        }
+                        
+                        .user-tasks-back {
+                            background-color: #f48870;
+                            color: white;
+                            border: none;
+                            border-radius: 6px;
+                            padding: 8px 18px;
+                            font-size: 16px;
+                            font-weight: 500;
+                            cursor: pointer;
+                            margin-bottom: 18px;
+                            box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+                            margin-left: -670px;
+                        }
+                        
+                        .user-tasks-back:hover {
+                            background-color: #ed2f29;
+                            transform: translateY(-2px);
+                        }
+                        
+                        .users-table th {
+                            padding: 10px;
+                        }
