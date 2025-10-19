@@ -32,12 +32,6 @@ This project provides a comprehensive solution for agile team collaboration, wit
 
 ---
 
-## Screenshots
-
-
-
-
-
 
 
 ## Getting Started
